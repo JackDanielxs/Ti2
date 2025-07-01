@@ -4,9 +4,9 @@ import java.sql.SQLException;
 
 public class PostgresConnection {
 
-    private static final String URL = "jdbc:postgresql://dayup.postgres.database.azure.com:5432/postgres";
-    private static final String USER = "adm@dayup";
-    private static final String PASSWORD = "admin";
+    private static final String URL = "YOUR_URL";
+    private static final String USER = "YOUR_USER";
+    private static final String PASSWORD = "YOUR_PASSWORD";
 
     public static Connection connect() {
         Connection conn = null;
